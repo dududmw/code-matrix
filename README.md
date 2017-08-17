@@ -15,7 +15,7 @@ npm i code-matrix --save
 * Use
 
 ```
-const Router=require('../dist/index.js').default;
+const Router=require('code-matrix').default;
 let router=new Router();
 router.use('/test/output0',function(next){
     this.text+=0;
